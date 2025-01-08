@@ -1,0 +1,13 @@
+.footer {
+  padding: 1rem;
+  text-align: center;
+  background: rgba(236, 179, 178, 0.7);
+  font-family: 'Satoshi', sans-serif;
+}
+
+.footer-nav a {
+  margin: 0 0.5rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 400;
+}

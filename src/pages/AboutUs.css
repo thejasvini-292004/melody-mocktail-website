@@ -1,0 +1,224 @@
+.about-us {
+  background: white;
+  font-family: 'Satoshi', sans-serif;
+  padding: 0; 
+  margin: 0;
+  position: relative;
+  height: 100vh; 
+}
+
+.about-us-container {
+  position: relative;
+  background-image: url('https://www.pewresearch.org/wp-content/uploads/sites/20/2024/05/SR_24.04.24_AAFacts_IndianFeature.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh; 
+  text-align: center;
+  color: black;
+  box-sizing: border-box;
+  padding: 6rem 1rem;
+}
+
+
+
+
+
+.about-us-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Title styles */
+.about-us-container h1,
+.about-us-container h2 {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  margin-top: 10vh;
+  color: #1a1a1a;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.about-us-container h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  animation-delay: 0.3s;
+}
+
+.about-us-container h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  animation-delay: 0.5s;
+}
+
+/* Content Section */
+.about-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+/* Left text content */
+.about-us-text {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  padding-left: 7rem;
+  padding-right: 5rem;
+}
+
+.about-us-text h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Right image */
+.about-us-image {
+  flex: 1;
+  max-width: 400px;
+  padding-right: 5rem;
+}
+
+.about-us-image img {
+  width: 100%;
+  height: auto;
+  
+}
+
+/* Row of Three Info Cards */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.info-card {
+  flex: 1;
+  background: #fff6f7;
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for info cards */
+.info-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+}
+
+/* Our Team Section */
+.our-team {
+  margin-top: 1rem;
+  padding: 1rem 0;
+ 
+}
+
+.team-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Team Image */
+.team-image-left {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Content */
+.team-content {
+  flex: 2;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Title */
+.team-content h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fb6f65; 
+  margin-bottom: 1rem;
+}
+
+/* Team Paragraph */
+.team-content p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

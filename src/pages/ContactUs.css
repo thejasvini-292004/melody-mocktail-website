@@ -1,0 +1,277 @@
+
+.contact-page {
+    font-family: 'Satoshi', sans-serif;
+    background-color: #f9f9f9;
+    padding: 2rem;
+  }
+  
+
+.title-box {
+  background: #f8dfe2;
+  text-align: center;
+  position: relative; 
+  max-width: 1300px;
+  height: 50vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+  z-index: 2; 
+}
+
+
+/* Adjust the content below */
+.content {
+  margin-top: 50vh; 
+}
+
+.title-box h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.title-box p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title-underline {
+  width: 100px;
+  height: 4px;
+  background: #333;
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+  
+.logos-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 1.5rem; 
+    flex-wrap: wrap;
+    padding-top: 10px; 
+  }
+  
+  .logos-section svg {
+    font-size: 1.5rem; 
+    color: #d45b5b; 
+  }
+  
+  .logos-section span {
+    font-size: 1rem; 
+    font-weight: 600; 
+    color: rgb(77, 75, 75); 
+    margin-left: 0.1rem; 
+  }
+  
+ 
+.form-newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+
+  .form-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .input-container {
+    background-color: #f9d8dc; 
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(24, 23, 23, 0.1);
+  }
+  
+  .input-container input,
+  .input-container textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: none;
+  }
+  
+  .input-container textarea {
+    height: 80px;
+  }
+  
+  .submit-button {
+    background: #b78283;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 0.8rem 0.5rem;
+    width: 200px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background: #b86b6c;
+  }
+  
+  
+  .newsletter-section {
+    flex: 1;
+    background: linear-gradient(
+        rgba(255, 182, 193, 0.3), 
+        rgba(255, 182, 193, 0.3)
+    ),
+    url('https://media.istockphoto.com/id/1440574824/vector/abstract-light-blue-graphic-design-presentation-background-web-template.jpg?s=612x612&w=0&k=20&c=l03G-gmFxWvlhn4uIaQnKlDp2KQ-7xqQ4KHp_LPSyEI=');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 200px;
+    color: #333; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a04444; 
+    margin-bottom: 0.5rem;
+}
+
+.newsletter-section p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+  
+  .newsletter-section h3 {
+    margin-top: 45px;
+    font-size: 1.5rem;
+    color: rgba(20, 57, 65, 0.6);
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter-section p {
+    font-size: 1rem;
+    color: rgba(20, 57, 65, 0.6);
+    margin-bottom: 1.5rem;
+  }
+  
+  .newsletter-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .newsletter-input-container input {
+    flex: 1;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .newsletter-submit-button {
+    background: rgba(31, 88, 100, 0.6);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .newsletter-submit-button:hover {
+    background: rgba(20, 57, 65, 0.6);
+  }
+  
+  
+
+.info-cards {
+    display: flex;
+    gap: 2rem; 
+    margin-bottom: 2rem;
+  }
+  
+  .info-card {
+    flex: 1;
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    ;
+  }
+  
+  .info-card h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+  }
+  
+  .info-card h4 svg {
+    margin-right: 0.5rem; 
+  }
+  
+  
+  .contact-info {
+    background: #003d3d; 
+    color: white; 
+  }
+  
+  .contact-info .number {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  
+  .email-info {
+    background-color: #4e7c7b; 
+    color: black; 
+  }
+  
+  .email-info .email {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  
+  .address-info {
+    background-color: #bfe6f2; 
+    color: black; 
+  }
+  
+  .address-info .address {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  .info-card p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 1rem;
+    line-height: 1.4;
+  }
+  

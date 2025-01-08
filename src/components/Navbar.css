@@ -1,0 +1,65 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(236, 179, 178, 0.7); 
+  font-family: 'Satoshi', sans-serif;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  position: absolute; 
+  width: 94.9%; 
+}
+
+/* Logo styling */
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  height: 40px; 
+  width: auto;  
+  margin-right: 10px; 
+}
+
+
+.logo-text {
+  font-size: 1.5rem; 
+  font-weight: 700; 
+  color: rgb(188, 4, 4); 
+}
+
+/* Navigation links styling */
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #481e1e;
+  font-weight: 500;
+  transition: font-size 0.3s ease; 
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+  font-size: 1.1rem; 
+}
+
+/* Contact Us button styling */
+.contact-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid #b86b6c;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: font-size 0.3s ease; 
+}
+
+/* Hover effect for Contact Us */
+.contact-button:hover {
+  font-size: 1.1rem; 
+  background-color: #984442;
+  color: white;
+}
